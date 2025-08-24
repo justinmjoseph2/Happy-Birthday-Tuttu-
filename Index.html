@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gift Page 🎁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('./images/Bg.jpg') no-repeat ;
+            background-size: cover;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.85);
+            border: 4px solid gold;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #444;
+        }
+
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .card {
+            background: #fff;
+            border: 2px solid #FFD700;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+            .card::before, .card::after {
+                content: "🎉";
+                position: absolute;
+                font-size: 2rem;
+            }
+
+            .card::before {
+                top: -15px;
+                left: -15px;
+            }
+
+            .card::after {
+                bottom: -15px;
+                right: -15px;
+            }
+
+        .album {
+            margin-top: 30px;
+        }
+
+            .album h2 {
+                margin-bottom: 15px;
+            }
+
+        .photos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+            .photos img {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 12px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            }
+
+        .note {
+            text-align: center;
+            margin-top: 30px;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Surprise Gift 🎁</h1>
+
+        <p class="quote">
+            "love you more than you could think of."
+        </p>
+
+        <div class="card">
+            <h2>🎂 Birthday Wishes 🎂</h2>
+            <p>
+                Happy birthday 🎂 tuttu... we saw your hard work... we know you care...all of us loves you sooo much...remember as long as i am alive you will always have someone rooting for you from the sidelines<br>
+                love you chakkara ummaa.... <br>
+                <strong>Happy birthday with a loooott of love 😘</strong>
+            </p>
+        </div>
+
+        <div class="album">
+            <h2>hope your birthday is as massive as your biceps 💫</h2>
+            <div class="photos">
+                <img src="./Images/1.jpg" alt="photo">
+                <img src="./Images/2.jpg" alt="photo">
+                <img src="./Images/3.jpg" alt="photo">
+                <img src="./Images/4.jpg" alt="photo">
+                <img src="./Images/5.jpg" alt="photo">
+                <img src="./Images/6.jpg" alt="photo">
+                <img src="./Images/7.jpg" alt="photo">
+                <img src="./Images/8.jpg" alt="photo">
+                <img src="./Images/9.jpg" alt="photo">
+                <img src="./Images/10.jpg" alt="photo">
+            </div>
+            <p class="note">bro take more pic with me 💕</p>
+        </div>
+
+        <p class="note">Made with love just for you 💛</p>
+    </div>
+</body>
+</html>
+
